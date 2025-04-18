@@ -95,11 +95,13 @@ For your convenience, I have pack the pretrained teacher weights and uploaded it
 ---
 
 - CIFAR100 ResNet-34 - ResNet-18
+  
+  ```
+  cd code/SpaceshipNet
+  python unlearning/unlearning.py --config scripts/unlearning_RestNet34_Resnet18.yaml
+  ```
 
-- '''
-- cd code/SpaceshipNet
-- python unlearning/unlearning.py --config scripts/unlearning_RestNet34_Resnet18.yaml
-- '''
+
 
 
 ## References
